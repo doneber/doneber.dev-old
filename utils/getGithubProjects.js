@@ -2,6 +2,7 @@ import puppeteer from 'puppeteer'
 import path from 'path'
 import { cwd } from 'node:process'
 import fetch from 'node-fetch'
+import fs from 'node:fs'
 
 (async () => {
 
@@ -20,6 +21,17 @@ import fetch from 'node-fetch'
       description: project.description,
       html_url: project.html_url,
       homepage_url: project.homepage,
+      image: `${project.name}.jpg`,
+    }
+  })
+
+  // Save the data in a json file
+  const jsonString = JSON.stringify({ projects: projectsData })
+  fs.writeFile(path.join(cwd(), 'gh_projects_data', 'projects.json'), jsonString, (err) => {
+    if (err) {
+      console.log('Error writing file:', err);
+    } else {
+      console.log('File saved successfully');
     }
   })
 
@@ -27,7 +39,7 @@ import fetch from 'node-fetch'
     // iterate all the websites ans save the screenshot
     for (const project of projectsData) {
       await page.goto(project.homepage_url)
-      await page.screenshot({ path: path.join(cwd(), 'public','screens', `${project.name}.jpg`) })
+      await page.screenshot({ path: path.join(cwd(), 'gh_projects_data', 'screens', `${project.name}.jpg`) })
     }
 
   } catch (error) {
