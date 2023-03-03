@@ -19,7 +19,7 @@ import fs from 'node:fs'
     return {
       name: project.name,
       description: project.description,
-      html_url: project.html_url,
+      repo_url: project.html_url,
       homepage_url: project.homepage,
       image: `${project.name}.jpg`,
     }

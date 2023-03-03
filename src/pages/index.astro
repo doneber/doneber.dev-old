@@ -6,7 +6,7 @@ import { projects } from "./../../gh_projects_data/projects.json";
 // capitalize the word
 const capitalize = (word) => {
   return word.charAt(0).toUpperCase() + word.slice(1);
-}
+};
 ---
 
 <BaseLayout>
@@ -40,6 +40,7 @@ const capitalize = (word) => {
           img={`./../../gh_projects_data/screens/${project.image}`}
           desc={project.description || ""}
           url={project.homepage_url}
+          repo_url={project.repo_url}
           target="_self"
         />
         <div class="divider my-0" />
