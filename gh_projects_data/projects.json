@@ -1,1 +1,39 @@
-{"projects":[{"name":"doneber","description":"This is a special repository","repo_url":"https://github.com/doneber/doneber","homepage_url":"https://doneber.github.io/doneber","image":"doneber.jpg"},{"name":"doneber.dev","description":"My Portfolio","repo_url":"https://github.com/doneber/doneber.dev","homepage_url":"https://doneber.dev","image":"doneber.dev.jpg"},{"name":"enfocate","description":"Área de aprendizaje colaborativo","repo_url":"https://github.com/doneber/enfocate","homepage_url":"https://enfocate.doneber.dev","image":"enfocate.jpg"},{"name":"blog","description":"Un blog personal para hablar de desarrollo, informática, etc.","repo_url":"https://github.com/doneber/blog","homepage_url":"https://doneber.dev/blog","image":"blog.jpg"},{"name":"Next","description":"Proyecto para centralizar cursos y recursos de la comunidad 😉","repo_url":"https://github.com/doneber/Next","homepage_url":"https://next.doneber.dev","image":"Next.jpg"}]}
+{
+  "projects": [
+    {
+      "name": "next",
+      "description": "Proyecto para centralizar cursos y recursos de la comunidad 😉",
+      "repo_url": "https://github.com/doneber/next",
+      "homepage_url": "https://next.doneber.dev",
+      "image": "next.jpg"
+    },
+    {
+      "name": "virtual-hug",
+      "description": "For you, for you who need a hug :3",
+      "repo_url": "https://github.com/doneber/virtual-hug",
+      "homepage_url": "https://doneber.dev/virtual-hug/",
+      "image": "virtual-hug.jpg"
+    },
+    {
+      "name": "blog",
+      "description": "Un blog personal para hablar de desarrollo, informática, etc.",
+      "repo_url": "https://github.com/doneber/blog",
+      "homepage_url": "https://doneber.dev/blog",
+      "image": "blog.jpg"
+    },
+    {
+      "name": "enfocate",
+      "description": "Área de aprendizaje colaborativo",
+      "repo_url": "https://github.com/doneber/enfocate",
+      "homepage_url": "https://enfocate.doneber.dev",
+      "image": "enfocate.jpg"
+    },
+    {
+      "name": "coolors-clone",
+      "description": "Este es un clon de https://coolors.co/generate",
+      "repo_url": "https://github.com/doneber/coolors-clone",
+      "homepage_url": "https://the-coolors-clone.netlify.app/",
+      "image": "coolors-clone.jpg"
+    }
+  ]
+}

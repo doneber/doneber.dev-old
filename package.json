@@ -19,6 +19,7 @@
     "astro": "^2.0.0",
     "daisyui": "^2.27.0",
     "dayjs": "^1.11.7",
+    "dotenv": "^16.0.3",
     "node-fetch": "^3.3.0",
     "puppeteer": "^19.7.2"
   },
