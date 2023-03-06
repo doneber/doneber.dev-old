@@ -37,7 +37,7 @@ const hasBlog = (name) => {
           url={project.homepage_url}
           repo_url={project.repo_url}
           blog_url={hasBlog(project.name) ? `project/${project.name}` : null}
-          target="_self"
+          target={hasBlog(project.name)? '_self': '_blank'}
         />
         <div class="divider my-0" />
       </>
