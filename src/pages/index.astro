@@ -43,7 +43,7 @@ const hasBlog = (name) => {
   <div class="container my-12 mx-auto md:px-4">
     <div class="card-wrapper">
       {
-        projects.map((project) => (
+        projects.map((project,index) => (
           <>
           <a
             href={hasBlog(project.name)? `project/${project.name}`: project.homepage_url}
@@ -53,7 +53,7 @@ const hasBlog = (name) => {
           >
             <div class="rounded-lg bg-base-100 shadow-md hover:shadow-xl transition ease-in-out hover:scale-[102%]">
               <img
-                src={`../../gh_projects_data/screens/${project.image}`}
+                src={`/screens/${project.image}`}
                 alt={project.name}
                 class="max-w-full rounded-lg"
               />

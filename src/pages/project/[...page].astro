@@ -17,7 +17,6 @@ export async function getStaticPaths({ paginate }) {
 const { page } = Astro.props
 const hasBlog = (name) => {
   return page.data.some((post) => {
-    console.log(post.slug, name)
     return post.slug == name
   })
 }
@@ -32,7 +31,7 @@ const hasBlog = (name) => {
       <>
         <HorizontalCard
           title={capitalize(project.name)}
-          img={`./../../gh_projects_data/screens/${project.image}`}
+          img={`/screens/${project.image}`}
           desc={project.description || ""}
           url={project.homepage_url}
           repo_url={project.repo_url}

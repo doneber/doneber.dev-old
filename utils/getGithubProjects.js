@@ -43,8 +43,6 @@ import fs from 'node:fs'
     .then(response => response.json())
     .then(data => data['data']['user']['pinnedItems']['nodes'])
     .catch(error => console.error(error));
-    console.log(githubProjects)
-    console.log(typeof githubProjects)
     
   const projectsData = githubProjects.map((project) => {
     return {
@@ -66,7 +64,7 @@ import fs from 'node:fs'
     // iterate all the websites ans save the screenshot
     for (const project of projectsData) {
       await page.goto(project.homepage_url)
-      await page.screenshot({ path: path.join(cwd(), 'gh_projects_data', 'screens', `${project.name}.jpg`) })
+      await page.screenshot({ path: path.join(cwd(), 'public', 'screens', `${project.name}.jpg`) })
     }
 
   } catch (error) {
