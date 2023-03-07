@@ -1,6 +1,6 @@
 {
-  "name": "Astro Modern Personal Website",
-  "description": "Astro Modern personal website template with Project Section, CV Section, Paginated Blog, Shop, RSS Feed, SEO Friendly, Visual themes and Responsive Desing.",
+  "name": "doneberdev_website",
+  "description": "this is my personal website, portfolio of my work and a much more.",
   "type": "module",
   "version": "2.1.1",
   "private": true,

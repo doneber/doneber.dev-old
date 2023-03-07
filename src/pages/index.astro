@@ -21,33 +21,36 @@ const hasBlog = (name) => {
 
 <BaseLayout>
   <div class="pb-12 mt-5">
-    <div class="text-xl py-1">Hi!</div>
+    <div class="text-xl py-1">Hey!</div>
     <div class="text-5xl font-bold">Doneber Dev</div>
-    <div class="text-3xl py-3 font-bold">Web Software Developer</div>
+    <div class="text-3xl py-3 font-bold">Desarrollador de Software Web</div>
     <div class="py-2">
       <text class="text-lg">
-        I am an appationated web developer and I love to create things that help
-        people. I create videos on my YouTube channel and I write articles on my
-        blog.
+        Soy un programador web especializado en el desarrollo frontend. Me gusta crear aplicaciones que ayuden a las personas. Además, hago videos en YouTube, escribo artículos para mi blog y creo contenido en mis otras redes sociales.
       </text>
     </div>
     <div class="mt-8">
       <a class="btn" href="mailto:doneber.dev@gmail.com" target="_blank">
-        Let's connect!</a
+        ¡Contactame!</a
       >
       <!-- <a href="https://github.com/manuelernestog/astro-modern-personal-website" target="_blank" class="btn btn-outline ml-5"> Get This template</a> -->
     </div>
   </div>
 
   <div>
-    <div class="text-3xl w-full font-bold mb-2">Some Projects <code>{"</>"}</code></div>
+    <div class="text-3xl w-full font-bold mb-2">Proyectos anclados <code>{"</>"}</code></div>
   </div>
   <div class="container my-12 mx-auto md:px-4">
     <div class="card-wrapper">
       {
         projects.map((project) => (
           <>
-          <a href={hasBlog(project.name)? `project/${project.name}`: project.homepage_url} target={hasBlog(project.name)? '': '_blank'}>
+          <a
+            href={hasBlog(project.name)? `project/${project.name}`: project.homepage_url}
+            aria-label={project.name}
+            title={project.name}
+            target={hasBlog(project.name)? '': '_blank'}
+          >
             <div class="rounded-lg bg-base-100 shadow-md hover:shadow-xl transition ease-in-out hover:scale-[102%]">
               <img
                 src={`../../gh_projects_data/screens/${project.image}`}
