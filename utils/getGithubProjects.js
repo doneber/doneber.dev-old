@@ -1,4 +1,3 @@
-import puppeteer from 'puppeteer'
 import path from 'path'
 import { cwd } from 'node:process'
 import fetch from 'node-fetch'
@@ -7,12 +6,6 @@ import fs from 'node:fs'
 
 (async () => {
   dotenv.config()
-  const browser = await puppeteer.launch()
-  const page = await browser.newPage()
-
-  // Set the viewport's width and height
-  await page.setViewport({ width: 1280, height: 800 })
-
   const username = "doneber"
   const endpoint = 'https://api.github.com/graphql';
   const query = `{
@@ -60,18 +53,6 @@ import fs from 'node:fs'
     }
   })
 
-  try {
-    // iterate all the websites ans save the screenshot
-    for (const project of projectsData) {
-      await page.goto(project.homepage_url)
-      await page.screenshot({ path: path.join(cwd(), 'public', 'screens', `${project.name}.jpg`) })
-    }
-
-  } catch (error) {
-    console.log(`Error: ${error.message}`)
-  } finally {
-    await browser.close()
-    console.log('Finished');
-  }
+ 
 
 })()

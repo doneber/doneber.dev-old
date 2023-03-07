@@ -4,9 +4,14 @@ import HorizontalCard from "../../components/HorizontalCard.astro";
 import { projects } from "../../../gh_projects_data/projects.json";
 import { getCollection } from "astro:content";
 
-// capitalize the word
-const capitalize = (word) => {
-  return word.charAt(0).toUpperCase() + word.slice(1);
+// capitalize, split by '-' the word
+const formatProjectName = (name) => {
+  const auxName = name.split("-")
+  auxName.forEach((word,index) => {
+    auxName[index] = word.charAt(0).toUpperCase() + word.slice(1);
+  })
+  return auxName.join(" ")
+
 };
 
 export async function getStaticPaths({ paginate }) {
@@ -30,7 +35,7 @@ const hasBlog = (name) => {
     projects.map((project) => (
       <>
         <HorizontalCard
-          title={capitalize(project.name)}
+          title={formatProjectName(project.name)}
           img={`/screens/${project.image}`}
           desc={project.description || ""}
           url={project.homepage_url}

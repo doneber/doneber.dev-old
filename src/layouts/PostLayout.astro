@@ -24,7 +24,7 @@ const displayDate = dayjs(pubDate).format("ll");
 <BaseLayout title={title} description={description} image={heroImage}>
   <main class="md:flex md:justify-center">
     <article class="prose prose-lg max-w-[750px] prose-img:mx-auto">
-      {heroImage && <img src={heroImage} alt={title} class="w-full mb-6 rounded" />}
+      {heroImage && <img src={heroImage} alt={title} class="w-full mb-6 rounded border" />}
       <h1 class="title my-2 text-4xl font-bold">{title}</h1>
       {pubDate && <time>{displayDate}</time>}
       {
@@ -35,7 +35,6 @@ const displayDate = dayjs(pubDate).format("ll");
           </div>
         )
       }
-      <div class="divider my-2"></div>
       <div class="social-icons my-2 flex self-center gap-3">
         {
           demoLink && (
@@ -193,6 +192,7 @@ const displayDate = dayjs(pubDate).format("ll");
           )
         }
       </div>
+      <div class="divider my-2"></div>
       <slot />
     </article>
   </main>
