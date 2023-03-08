@@ -1,32 +1,43 @@
 ---
 title: "Enfocate"
-description: "Esta es la descripción"
+description: "Este proyecto ofrece cursos de programación en línea al estilo de plataformas de educación como Platzi, Codigofacilito o Edteam pero donde el enfoque es brindar cursos gratuitos para estudiantes universitarios.
+"
 pubDate: "March 4 2023"
 demoLink: "https://enfocate.doneber.dev"
 ghRepo: "https://github.com/doneber/enfocate"
-ytVideo: "https://github.com/doneber/enfocate"
-tiktokVideo: "https://github.com/doneber/enfocate"
+ytVideo: "https://youtu.be/qopYgsT_1Zw"
 heroImage: "/screens/enfocate.jpg"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+Este proyecto ofrece cursos de programación en línea al estilo de plataformas de educación como [Platzi](https://platzi.com/), [Codigofacilito](https://codigofacilito.com/) o [Edteam](https://ed.team/) pero donde el enfoque es brindar cursos gratuitos para estudiantes universitarios.
 
-### ¿De dónde salió la idea de ese proyecto?
+### ¿Cómo surgió la idea de este proyecto?
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
+Frente a la poca o nula disponibilidad de una enseñanza por parte de muchos docentes, este proyecto surge como un espacio para subir material educativo para cubrir las materias que llevan los estudiantes de Informática. 
 
-### ¿Qué tecnologías y herramientas aplique?
+Además durante el periodo de la cuarentena del COVID-19 muchos estudiantes no tenían acceso a los recursos que dictaban los docentes universitarios, sin mencionar la poca empatía hacia los estudiantes, quienes tenían dificultades para acceder a los recursos de clase.
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
+### ¿Qué tecnologías y herramientas se usaron?
 
-### ¿Cómo lo hice?
+Este proyecto utiliza tecnologías como:
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.
+| Descripción | Tecnología |
+| --- | --- |
+| Framework base | https://v2.vuejs.org/ |
+| Meta-framework (SSR/SSG) | Nuxt 2 |
+| Manejo del contenido | Markdown-it |
+| CSS framework? | Vuetify |
 
-### ¿Qué resultados tuve?
+### ¿Cómo se hizo?
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+El proyecto se creó viendo videos de YouTube y leyendo un blog que enseñaba a manejar Markdown con Vue. También se tomaron cursos de [Platzi](https://platzi.com/) para crear un modelo de negocio y copywriting.
 
-### ¿Qué problemas afronté?
+### ¿Qué resultados se obtuvieron?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+El proyecto tuvo buena aceptación por de los interesados que llegaron a ver el proyecto. Sin embargo, al ser un proyecto sin fines de lucro además de que el desarrollo y creación de contenido requiere un esfuerzo y organización bastante alto su crecimiento fue bastante limitado.
+
+### ¿Qué problemas se enfrentaron durante el desarrollo del proyecto?
+
+- **Marketing y distribución**: La divulgación, promoción y desarrollo de una marca fueron las principales obstáculos para el desarrollo del proyecto. Sin embargo investigar en blogs de internet, videos de YouTube y cursos en plataformas ayudaron a cubrir estas áreas que al día de hoy aún siguen desarrollándose.
+- **Las tecnologías de desarrollo**: También se tuvo que transformar archivos Markdown a un formato HTML, manejo del estado, componentes y el flujo de desarrollo de una aplicación Vue.
+- **Despliegue del proyecto**: Adquirir un dominio y configurarlo en un principio puede ser bastante desafiante.

@@ -1,16 +1,32 @@
 ---
-title: "next"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-pubDate: "Sep 10 2022"
+title: "Next"
+description: "Este es un espacio en línea para alojar y centralizar cursos de desarrollo web escritos al estilo de un blog."
+pubDate: "Mar 07 2023"
+demoLink: "https://next.doneber.dev"
+ghRepo: "https://github.com/doneber/next"
 heroImage: "/screens/next.jpg"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+Este es un espacio en línea para alojar y centralizar cursos de desarrollo web escritos al estilo de un blog.
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
+### ¿Cómo surgió la idea de este proyecto?
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
+La idea era actualizar (hacer un *upgrade*) el proyecto de **[Enfocate](https://www.enfocate.doneber.dev/)** con tecnologías modernas además de practicar y actualizar nuestras habilidades de desarrollo. Además de crear un espacio para publicar cursos de desarrollo web.
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.
+### ¿Qué tecnologías y herramientas se usaron?
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+Este proyecto utiliza tecnologías frontend como:
+
+- [Vue.js 3](https://vuejs.org/)
+- [Nuxt 3](https://nuxt.com/)
+- [Content](https://content.nuxtjs.org/)
+
+### ¿Qué resultados se obtuvieron?
+
+- Un espacio en internet para publicar cursos y contenido de forma simple y rápida.
+- Conocimiento actualizado de tecnologías web, particularmente VueJs 3
+
+### ¿Qué problemas se enfrentaron durante el desarrollo del proyecto?
+
+- **Manejar Content**: Aprender una nueva tecnología a veces puede ser desafiante, integrar Content a este proyecto en particular requería leer mucha de la documentación de Content y conocimientos de Vue.
+- **CSS reutilizable**: Usar frameworks CSS como Bootstrap o Picocss es sencillo. Pero usar tus propios estilos en diferentes componentes sin que se sobrepongan puede ser complicado si no se usa una buena convención y organización de los archivos y variables CSS.
