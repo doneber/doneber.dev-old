@@ -1,5 +1,5 @@
 ---
-title: "Enfocate"
+title: "Virtual Hug"
 description: "Esta es la descripción"
 pubDate: "March 4 2023"
 demoLink: "https://hug.doneber.dev/dashboard"

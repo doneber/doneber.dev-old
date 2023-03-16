@@ -12,6 +12,15 @@ export async function getStaticPaths() {
 }
 const projectPosts = await getStaticPaths()
 
+// capitalize, split by '-' the word
+const formatProjectName = (name) => {
+  const auxName = name.split("-")
+  auxName.forEach((word,index) => {
+    auxName[index] = word.charAt(0).toUpperCase() + word.slice(1);
+  })
+  return auxName.join(" ")
+}
+
 const hasBlog = (name) => {
   return projectPosts.some((post) => {
     return post.params.slug == name
@@ -21,12 +30,12 @@ const hasBlog = (name) => {
 
 <BaseLayout>
   <div class="pb-12 mt-5">
-    <div class="text-xl py-1">Hey!</div>
+    <!-- <div class="text-xl py-1">Hey!</div> -->
     <div class="text-5xl font-bold">Doneber Dev</div>
-    <div class="text-3xl py-3 font-bold">Desarrollador de Software Web</div>
+    <div class="text-3xl py-3 font-bold">Desarrollador Web</div>
     <div class="py-2">
       <text class="text-lg">
-        Soy un programador web especializado en el desarrollo frontend. Me gusta crear aplicaciones que ayuden a las personas. Además, hago videos en YouTube, escribo artículos para mi blog y creo contenido en mis otras redes sociales.
+        Me especializo en el desarrollo frontend. Me gusta crear aplicaciones que ayuden a las personas. Además, hago videos en YouTube, escribo artículos para mi blog y creo contenido en mis otras redes sociales.
       </text>
     </div>
     <div class="mt-8">
@@ -38,31 +47,24 @@ const hasBlog = (name) => {
   </div>
 
   <div>
-    <div class="text-3xl w-full font-bold mb-2">Proyectos Anclados 📌</div>
+    <div class="text-3xl w-full font-bold mb-5">Proyectos 📌</div>
   </div>
-  <div class="container my-12 mx-auto md:px-4">
-    <div class="card-wrapper">
-      {
-        projects.map((project,index) => (
-          <>
-          <a
-            href={hasBlog(project.name)? `project/${project.name}`: project.homepage_url}
-            aria-label={project.name}
-            title={project.name}
-            target={hasBlog(project.name)? '': '_blank'}
-          >
-            <div class="rounded-lg bg-base-100 shadow-md hover:shadow-xl transition ease-in-out hover:scale-[102%]">
-              <img
-                src={`/screens/${project.image}`}
-                alt={project.name}
-                class="max-w-full rounded-lg"
-              />
-            </div>
-            </a>
-          </>
-        ))
-      }
-    </div>
+  <div class="card-wrapper">
+    {
+      projects.map((project) => (
+        <>
+          <HorizontalCard
+            title={formatProjectName(project.name)}
+            img={`/screens/${project.image}`}
+            desc={project.description || ""}
+            url={project.homepage_url}
+            repo_url={project.repo_url}
+            blog_url={hasBlog(project.name) ? `project/${project.name}` : null}
+            target={hasBlog(project.name)? '_self': '_blank'}
+          />
+        </>
+      ))
+    }
   </div>
 </BaseLayout>
 
@@ -70,6 +72,6 @@ const hasBlog = (name) => {
   .card-wrapper {
     display: grid;
     gap: 16px;
-    grid-template-columns: repeat(auto-fit, minmax(264px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 </style>
