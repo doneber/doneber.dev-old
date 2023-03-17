@@ -13,6 +13,15 @@ const { image, title = SITE_TITLE, description = SITE_DESCRIPTION } = Astro.prop
 <html lang="es" data-theme="light">
   <head>
     <BaseHead title={title} description={description} image={image} />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WJSJQ78QYQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-WJSJQ78QYQ');
+    </script>
   </head>
   <body>
     <div class="bg-base-100 drawer drawer-mobile">
