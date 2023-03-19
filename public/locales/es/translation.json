@@ -1,0 +1,15 @@
+{
+  "home": {
+    "titlejob": "Desarrollador Web",
+    "jobdescription": "Me especializo en el frontend con el ecosistema de Vuejs y Javascript🍦. Me gusta seguir buenas prácticas de código 📄. Además creo contenido en mis redes sociales 💻.",
+    "projects": "Proyectos",
+    "contactme": "¡Contactame!",
+    "skills": "Habilidades 🎨",
+    "social": "Redes Sociales 📱"
+  },
+  "sidebar": {
+    "home": "Inicio",
+    "blog": "Blog",
+    "contact": "Contacto"
+  }
+}

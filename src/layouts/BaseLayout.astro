@@ -3,6 +3,7 @@ import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import SideBar from "../components/SideBar.astro";
+import i18next, { t, changeLanguage } from "i18next";
 
 import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
 
@@ -10,7 +11,7 @@ const { image, title = SITE_TITLE, description = SITE_DESCRIPTION } = Astro.prop
 ---
 
 <!DOCTYPE html>
-<html lang="es" data-theme="light">
+<html lang={i18next.language} data-theme="light">
   <head>
     <BaseHead title={title} description={description} image={image} />
     <script is:inline>

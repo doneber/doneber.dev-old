@@ -1,0 +1,15 @@
+{
+  "home": {
+    "titlejob": "Web Developer",
+    "jobdescription": "I specialize in frontend with Vuejs & Javascript🍦 ecosystem. I like to follow good coding practices 📄. I also create content on my social networks 💻.",
+    "projects": "Projects",
+    "contactme": "Contact me!",
+    "skills": "Skills 🎨",
+    "social": "Social Networks 📱"
+  },
+  "sidebar": {
+    "home": "Home",
+    "blog": "Blog",
+    "contact": "Contact"
+  }
+}
