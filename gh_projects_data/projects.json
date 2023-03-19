@@ -8,39 +8,39 @@
       "image": "next.jpg"
     },
     {
-      "name": "enfocate",
-      "description": "Área de aprendizaje colaborativo",
-      "repo_url": "https://github.com/doneber/enfocate",
-      "homepage_url": "https://enfocate.doneber.dev",
-      "image": "enfocate.jpg"
-    },
-    {
       "name": "virtual-hug",
-      "description": "Genera y envía un abrazo virtual al alcance un enlace web.",
+      "description": "Genera un mensaje felicitación y abrazo virtual simbólico, todo al alcance de un simple enlace.",
       "repo_url": "https://github.com/doneber/virtual-hug",
       "homepage_url": "https://hug.doneber.dev/dashboard",
       "image": "virtual-hug.jpg"
     },
     {
       "name": "coolors-clone",
-      "description": "Generador de paletas de colores al estilo de coolors.co y muchas de sus funcionalidades extra.",
+      "description": "Genera y personaliza una paleta de colores. Puedes agregar o eliminar los colores que quieras.",
       "repo_url": "https://github.com/doneber/coolors-clone",
       "homepage_url": "https://the-coolors-clone.netlify.app/",
       "image": "coolors-clone.jpg"
     },
     {
       "name": "binary-watch",
-      "description": "El mejor proyecto de relojes digitales virtuales que puedas regalar en el mundo mundial!!",
+      "description": "Un reloj digital completamente binario. Puedes ver los minutos y horas representadas en base binaria.",
       "repo_url": "https://github.com/doneber/binary-watch",
       "homepage_url": "https://reloj-binario.netlify.com/",
       "image": "binary-watch.jpg"
     },
     {
       "name": "new-year-countdown",
-      "description": "Reloj para mostrar en cuenta regresiva los días, horas, minutos y segundos para el próximo año nuevo.",
+      "description": "Cuenta regresiva para año nuevo. El reloj digital muestra los días, horas, minutos y segundos que quedan del año.",
       "repo_url": "https://github.com/doneber/new-year-countdown",
       "homepage_url": "http://doneber.dev/new-year-countdown/",
       "image": "new-year-countdown.jpg"
+    },
+    {
+      "name": "el-logo-chrome-en-css",
+      "description": "El logo de Google Chrome dibujando completamente con HTML básico y todo el poder de CSS.",
+      "repo_url": "https://github.com/doneber/el-logo-chrome-en-css",
+      "homepage_url": "https://doneber.dev/el-logo-chrome-en-css/",
+      "image": "el-logo-chrome-en-css.jpg"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "home": {
     "titlejob": "Web Developer",
-    "jobdescription": "I specialize in frontend with Vuejs & Javascript🍦 ecosystem. I like to follow good coding practices 📄. I also create content on my social networks 💻.",
+    "jobdescription": "I specialize in frontend with Vuejs ecosystem & Javascript 🍦. I like to follow good coding practices 📄. I also create content on my social networks 💻.",
     "projects": "Projects",
     "contactme": "Contact me!",
     "skills": "Skills 🎨",
@@ -11,5 +11,55 @@
     "home": "Home",
     "blog": "Blog",
     "contact": "Contact"
-  }
+  },
+  "projects": [
+    {
+      "name": "next",
+      "display_name": "Next Project",
+      "description": "Project to centralize courses and community resources focused on modern web development.",
+      "repo_url": "https://github.com/doneber/next",
+      "homepage_url": "https://next.doneber.dev",
+      "image": "next.jpg"
+    },
+    {
+      "name": "virtual-hug",
+      "display_name": "Virtual Hug",
+      "description": "It generates a congratulatory message and a symbolic virtual hug, all within the reach of a simple link.",
+      "repo_url": "https://github.com/doneber/virtual-hug",
+      "homepage_url": "https://hug.doneber.dev/dashboard",
+      "image": "virtual-hug.jpg"
+    },
+    {
+      "name": "coolors-clone",
+      "display_name": "Coolors Clone",
+      "description": "Generate and customize a color palette. You can add or remove the colors you want.",
+      "repo_url": "https://github.com/doneber/coolors-clone",
+      "homepage_url": "https://the-coolors-clone.netlify.app/",
+      "image": "coolors-clone.jpg"
+    },
+    {
+      "name": "binary-watch",
+      "display_name": "Binary Watch",
+      "description": "A fully binary digital clock. You can see the minutes and hours represented in binary base.",
+      "repo_url": "https://github.com/doneber/binary-watch",
+      "homepage_url": "https://reloj-binario.netlify.com/",
+      "image": "binary-watch.jpg"
+    },
+    {
+      "name": "new-year-countdown",
+      "display_name": "New Year Countdown",
+      "description": "Countdown to the new year. The digital clock shows the remaining days, hours, minutes and seconds of the year.",
+      "repo_url": "https://github.com/doneber/new-year-countdown",
+      "homepage_url": "http://doneber.dev/new-year-countdown/",
+      "image": "new-year-countdown.jpg"
+    },
+    {
+      "name": "Virtual Hug",
+      "display_name": "Chrome Logo in CSS",
+      "description": "Google Chrome logo drawing entirely with basic HTML and all the power of CSS.",
+      "repo_url": "https://github.com/doneber/el-logo-chrome-en-css",
+      "homepage_url": "https://doneber.dev/el-logo-chrome-en-css/",
+      "image": "el-logo-chrome-en-css.jpg"
+    }
+  ]
 }
