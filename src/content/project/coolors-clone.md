@@ -1,6 +1,6 @@
 ---
 title: "Coolors clone"
-description: "Esta es la descripción"
+description: "Genera y personaliza una paleta de colores. Puedes agregar o eliminar los colores que quieras."
 pubDate: "March 4 2023"
 demoLink: "https://the-coolors-clone.netlify.app/"
 ghRepo: "https://github.com/doneber/coolors-clone"
@@ -33,3 +33,7 @@ Al final obtuve una aplicación propia para generar mis paletas y conocer todo e
 - La generación de paletas, es decir que los colores tengan una armonía entre si.
 - Manipular el DOM
 - Organizar y reutilizar código para que sea mantenible
+
+Si quieres ver un poco del proyecto y/o su realización, puedes ver el video en YouTube:
+
+[![](https://img.youtube.com/vi/bZ5RFbsqJII/maxresdefault.jpg)](https://youtu.be/bZ5RFbsqJII)

@@ -1,6 +1,6 @@
 ---
 title: "Virtual Hug"
-description: "Esta es la descripción"
+description: "Genera un mensaje de felicitación y abrazo virtual simbólico, todo al alcance de un simple enlace."
 pubDate: "March 4 2023"
 demoLink: "https://hug.doneber.dev/dashboard"
 ghRepo: "ttps://github.com/doneber/virtual-hug"
@@ -45,3 +45,7 @@ Este proyecto se divide en 2 partes.
 ### Problemas enfrentados durante el desarrollo del proyecto
 
 - Sincronización del formulario generador con la previsualización
+
+Si quieres ver un poco del proyecto y/o su realización, puedes ver el video en YouTube:
+
+[![](https://img.youtube.com/vi/2IASfT6aRXE/maxresdefault.jpg)](https://youtu.be/2IASfT6aRXE)

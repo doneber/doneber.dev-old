@@ -1,6 +1,6 @@
 ---
 title: "Next"
-description: "Este es un espacio en línea para alojar y centralizar cursos de desarrollo web escritos al estilo de un blog."
+description: "Proyecto para centralizar cursos y recursos de la comunidad enfocados en el desarrollo web moderno."
 pubDate: "Mar 07 2023"
 demoLink: "https://next.doneber.dev"
 ghRepo: "https://github.com/doneber/next"
@@ -11,7 +11,7 @@ Este es un espacio en línea para alojar y centralizar cursos de desarrollo web 
 
 ### ¿Cómo surgió la idea de este proyecto?
 
-La idea era actualizar (hacer un *upgrade*) el proyecto de **[Enfocate](https://www.enfocate.doneber.dev/)** con tecnologías modernas además de practicar y actualizar nuestras habilidades de desarrollo. Además de crear un espacio para publicar cursos de desarrollo web.
+La idea era hacer una actualización (un *upgrade*) del proyecto **[Enfocate](https://www.enfocate.doneber.dev/)** (un proyecto pasado similar) pero ahora con tecnologías modernas, además de practicar y actualizar nuestras habilidades de desarrollo web. Además este proyecto seria ideal para publicar cursos de desarrollo web propios.
 
 ### ¿Qué tecnologías y herramientas se usaron?
 
