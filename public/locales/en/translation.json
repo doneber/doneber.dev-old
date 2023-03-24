@@ -7,6 +7,52 @@
     "skills": "Skills 🎨",
     "social": "Social Networks 📱"
   },
+  "cv": {
+    "profile": "Profile",
+    "profile-description": "I'm a fullstack web developer focused on frontend. I use different frameworks, specially Vuejs and vanilla Javascript ecosystem for personal projects. I like to follow good coding practices and share educational programming content on my social networks.",
+    "education": "Education",
+    "education-list": [
+      {
+        "title": "Bachelor's Degree in Computer Science",
+        "subtitle": "San Andrés University"
+      }
+    ],
+    "projects": "Projects",
+    "projects-list": [
+      {
+        "title": "Next",
+        "subtitle": "Project to centralize courses and community resources focused on modern web development."
+      },
+      {
+        "title": "Virtual Hug",
+        "subtitle": "It generates a congratulatory message and a symbolic virtual hug, all within the reach of a simple link."
+      },
+      {
+        "title": "Coolors Clone",
+        "subtitle": "Generate and customize a color palette. You can add or remove the colors you want."
+      },
+      {
+        "title": "Binary Watch",
+        "subtitle": "A fully binary digital clock. You can see the minutes and hours represented in binary base."
+      }
+    ],
+    "skills": "Skills",
+    "skills-list": [
+      "JavaScript",
+      "GIT",
+      "NodeJs",
+      "GitHub",
+      "Vue",
+      "Self-taught",
+      "Nuxt",
+      "Empathy"
+    ],
+    "languages": "Languages",
+    "languages-list": [
+      "Spanish",
+      "English"
+    ]
+  },
   "sidebar": {
     "home": "Home",
     "blog": "Blog",

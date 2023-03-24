@@ -7,6 +7,52 @@
     "skills": "Habilidades 🎨",
     "social": "Redes Sociales 📱"
   },
+  "cv": {
+    "profile": "Perfil",
+    "profile-description": "Soy un desarrollador web fullstack enfocado en el frontend. Uso diferentes frameworks, en especial el ecosistema de Vuejs y vanilla Javascript para proyectos personales. Me gusta seguir buenas prácticas de código y compartir contenido educativo de programación en mis redes sociales.",
+    "education": "Educación",
+    "education-list": [
+      {
+        "title": "Licenciatura en Informática",
+        "subtitle": "Universidad Mayor de San Andrés"
+      }
+    ],
+    "projects": "Proyectos",
+    "projects-list": [
+      {
+        "title": "Next",
+        "subtitle": "Proyecto para centralizar cursos y recursos de la comunidad enfocados en el desarrollo web moderno."
+      },
+      {
+        "title": "Abrazo Virtual",
+        "subtitle": "Genera un mensaje de felicitación y abrazo virtual simbólico, todo al alcance de un simple enlace."
+      },
+      {
+        "title": "Coolors Clone",
+        "subtitle": "Genera y personaliza una paleta de colores. Puedes agregar o eliminar los colores que quieras."
+      },
+      {
+        "title": "Reloj Binario",
+        "subtitle": "Un reloj digital completamente binario. Puedes ver los minutos y horas representadas en base binaria."
+      }
+    ],
+    "skills": "Habilidades",
+    "skills-list": [
+      "JavaScript",
+      "GIT",
+      "NodeJs",
+      "GitHub",
+      "Vue",
+      "Autodidacta",
+      "Nuxt",
+      "Empatía"
+    ],
+    "languages": "Idiomas",
+    "languages-list": [
+      "Español",
+      "Inglés"
+    ]
+  },
   "sidebar": {
     "home": "Inicio",
     "blog": "Blog",
